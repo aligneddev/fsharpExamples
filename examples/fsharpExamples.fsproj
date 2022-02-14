@@ -4,8 +4,13 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="01SimilarToLinq.fs" />
+    <Compile Include="01HelloWorldRepl.fsx" />
+    <Compile Include="02SimilarToLinqWithPipes.fs" />
+    <Compile Include="cards/DrawCards.fs" />
+    <Compile Include="cards/ShuffleCards.fs" />
+    <Compile Include="03PipingFunctions.fs" />
+    
+    <!-- needs to be last-->
     <Compile Include="Program.fs" />
-    <Compile Include="02PipingFunctions.fs" />
   </ItemGroup>
 </Project>
