@@ -431,9 +431,3 @@ $RECYCLE.BIN/
 # JetBrains Rider
 .idea/
 *.sln.iml
-
-##
-## Angular Cache
-##
-src/AgSync.Drive.Dispatcher/app/.angular/cache/*
-src/AgSync.Drive.Dispatcher/app/package-lock.json
