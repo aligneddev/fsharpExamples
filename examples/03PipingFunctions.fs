@@ -1,4 +1,4 @@
-// code from https://docs.microsoft.com/en-us/learn/modules/fsharp-functions/
+// code from https://docs.microsoft.com/en-us/learn/modules/fsharp-functions/, you should go through the tutorial
 module fSharpExamples.Piping
 
 printfn "03PipingFunctions"

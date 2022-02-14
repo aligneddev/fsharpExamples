@@ -9,8 +9,17 @@
     <Compile Include="cards/DrawCards.fs" />
     <Compile Include="cards/ShuffleCards.fs" />
     <Compile Include="03PipingFunctions.fs" />
+    <Compile Include="04TypesAndObjects.fs" />
+    <Compile Include="05ListsAndCollections.fs" />
+    <Compile Include="06JsonNetSerialization.fs" />
     
     <!-- needs to be last-->
     <Compile Include="Program.fs" />
+    <Content Include="people.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 </Project>
