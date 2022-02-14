@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iEg/Am5yhFBhnvx5dVe2HlbzWyoZcjkDbLUyJ50FRTFrxiYKYtfysiHuQYk2U198cxoMgWCUsPHsIUGC1IwHlw==",
+  "dgSpecHash": "qGj7Nn5K3/XK8WHE0ZsB0h0F4B5nRafP9xOym96ZCPqVHWw/EUvIrcjkgJOxhcjQe/9pPIyHcu2iCqIJyFP4uA==",
   "success": true,
-  "projectFilePath": "C:\\git\\fsharpExamples\\fsharpExamples.fsproj",
+  "projectFilePath": "c:\\git\\fsharpExamples\\examples\\fsharpExamples.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\ca-kevinlogan\\.nuget\\packages\\fsharp.core\\6.0.1\\fsharp.core.6.0.1.nupkg.sha512"
   ],

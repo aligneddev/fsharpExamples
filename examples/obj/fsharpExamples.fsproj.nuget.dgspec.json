@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\fsharpExamples\\fsharpExamples.fsproj": {}
+    "c:\\git\\fsharpExamples\\examples\\fsharpExamples.fsproj": {}
   },
   "projects": {
-    "C:\\git\\fsharpExamples\\fsharpExamples.fsproj": {
+    "c:\\git\\fsharpExamples\\examples\\fsharpExamples.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\fsharpExamples\\fsharpExamples.fsproj",
+        "projectUniqueName": "c:\\git\\fsharpExamples\\examples\\fsharpExamples.fsproj",
         "projectName": "fsharpExamples",
-        "projectPath": "C:\\git\\fsharpExamples\\fsharpExamples.fsproj",
+        "projectPath": "c:\\git\\fsharpExamples\\examples\\fsharpExamples.fsproj",
         "packagesPath": "C:\\Users\\ca-kevinlogan\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\fsharpExamples\\obj\\",
+        "outputPath": "c:\\git\\fsharpExamples\\examples\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ca-kevinlogan\\AppData\\Roaming\\NuGet\\NuGet.Config",

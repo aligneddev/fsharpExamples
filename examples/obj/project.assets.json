@@ -118,11 +118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\git\\fsharpExamples\\fsharpExamples.fsproj",
+      "projectUniqueName": "c:\\git\\fsharpExamples\\examples\\fsharpExamples.fsproj",
       "projectName": "fsharpExamples",
-      "projectPath": "c:\\git\\fsharpExamples\\fsharpExamples.fsproj",
+      "projectPath": "c:\\git\\fsharpExamples\\examples\\fsharpExamples.fsproj",
       "packagesPath": "C:\\Users\\ca-kevinlogan\\.nuget\\packages\\",
-      "outputPath": "c:\\git\\fsharpExamples\\obj\\",
+      "outputPath": "c:\\git\\fsharpExamples\\examples\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ca-kevinlogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
