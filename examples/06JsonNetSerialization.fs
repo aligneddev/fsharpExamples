@@ -1,5 +1,6 @@
 
 // dotnet add package Newtonsoft.Json 
+// https://atlemann.github.io/fsharp/2021/12/11/fs-crypto.html has more examples
 module fSharpExamples.Json
 
 type Person = { name : string; hobbies : string[] }

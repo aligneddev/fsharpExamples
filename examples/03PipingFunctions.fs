@@ -15,3 +15,11 @@ cards |> shuffle |> take 3 |> printAll
 
 open Cards.Draw
 printfn "Deck: %A Hand: %A" d h
+
+
+// function composition example
+// let add2 a = a + 2
+// let multiply3 a = a * 3 
+// let addAndMultiply = add2 >> multiply3
+
+// printfn "%i" (addAndMultiply 2) // 12

@@ -5,6 +5,7 @@
 // referenced in Program.fs
 module fSharpExamples.Linq
 
+// whitespace to the left matters
 let getOddSquares xs =
     xs
     |> List.filter (fun x -> x % 2 <> 0)
