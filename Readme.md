@@ -11,6 +11,7 @@ Blog post:
 - 06JsonNetSerialization.fs
 - 07PatternMatching.fs
 - 08Html.fs
+- 09ApiAsyncAwait.fs
 
 ## Simple Unit Test Example in fsharpTests folder
 

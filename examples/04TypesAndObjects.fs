@@ -50,3 +50,9 @@ let customer = CustomerName("Kurt", "M", "Woolworth")
 // https://fsharpforfunandprofit.com/posts/type-extensions/#downsides-of-methods
 // "So, a plea for those of you new to functionally programming. Don't use methods at all if you can, especially when you are learning. 
 // They are a crutch that will stop you getting the full benefit from functional programming."
+
+
+// Tuples
+// https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/tuples
+
+// let t = ("one", "two", "three")

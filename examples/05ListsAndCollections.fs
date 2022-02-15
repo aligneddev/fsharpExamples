@@ -28,3 +28,7 @@ let s = {
 let first = newList.Item 1 
 let first2 = newList.Head // same as first
 let last = newList.Tail // all but first
+
+
+
+// last line is the "return"
