@@ -11,7 +11,19 @@ let getOddSquares xs =
     |> List.filter (fun x -> x % 2 <> 0)
     |> List.map (fun x -> x * x)
 
+
 // compare to C#
 // var xs = new List<int>{ 1, 2, 3, 4, 5, 6};
-// var results = xs.Where(x => x % 2 != 0).Select(x => x * x);
+// var results = xs.Where(x => x % 2 != 0).Select(x => x * x).ToList();
 
+// or split it out
+// https://fsharpforfunandprofit.com/posts/function-composition/
+// >> Composes two functions (forward composition operator).
+let getOdds xs = List.filter (fun x -> x % 2 <> 0)
+let getSquares xs = List.map (fun x -> x * x)
+
+let getOddSquaresComposed xs =
+    let y = getOdds xs
+    getSquares y
+// to
+let getOddSquaresComposed2 xs = getOdds >> getSquares 
