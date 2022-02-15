@@ -4,17 +4,20 @@ module fSharpExamples.Piping
 printfn "03PipingFunctions"
 
 // simple example of functions and piping
-let list = [4; 3; 1]
+let myList = [4; 3; 1]
+let myListLetters = ["a"; "b"; "c"]
 let sort (list: int list) = List.sort list
-let print (list: int list)= List.iter(fun x-> printfn "item %i" x) list
+let print (list)= List.iter(fun x-> printfn $"item {x}") list
+let listSortPrint = myList |> sort |> print
 
-let listSortPrint = list |> sort |> print
+// typing of int list stops this
+// let listSortPrint2 = myListLetters |> sort |> print
 
 open Cards.Shuffle
 cards |> shuffle |> take 3 |> printAll
 
 open Cards.Draw
-printfn "Deck: %A Hand: %A" d h
+printfn "Deck: %A Hand: %A" deckAfter handAfter
 
 
 // function composition example

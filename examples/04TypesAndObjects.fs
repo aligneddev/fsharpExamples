@@ -4,6 +4,11 @@
 
 module fSharpExamples.TypesAndObjects
 
+type Animal = {
+  name: string
+  noises: string list
+}
+
 type Person = 
   { 
     name : string
@@ -16,13 +21,15 @@ type Person =
       hobbies = [] 
     }
 
-let Kevin2 =
+
+let Kevin =
   { 
     Person.Empty with 
       name = "Kevin"
       hobbies = ["guitar"; "biking"; "reading"]
   }
-let Kevin3 = {
+
+let Kevin2 = {
   name = "Kevin"
   hobbies = ["guitar"; "biking"; "reading"]
 }
@@ -32,6 +39,14 @@ let Joey  = {
     name = "Joey"
 }
 
+let dog = 
+  {
+    name = "Toto"
+    noises = ["bark"]
+  }
+
+// if you only have name, it takes the type that is closest above.
+// let d = { name = "K" } // Person, until Animal is moved down
 
 // classes are different
 // https://fsharpforfunandprofit.com/posts/classes/
@@ -44,7 +59,8 @@ type CustomerName(firstName:string, middleInitial, lastName) =
   member _.AddOne x = x + 1
 
 let customer = CustomerName("Kurt", "M", "Woolworth")
-// immutable customer.LastName <- "kjkl";
+// immutable 
+// customer.LastName <- "kjkl";
 
 // "F# classes which are defined outside a module are generated as normal top-level .NET classes, which is probably what you want." modules are a static class
 // https://fsharpforfunandprofit.com/posts/type-extensions/#downsides-of-methods

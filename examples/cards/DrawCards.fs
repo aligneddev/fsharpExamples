@@ -19,4 +19,4 @@ let drawCardToHand (deck: list<int>, draw: list<int>) =
         |> List.append [firstCard]
     (deck.Tail, hand)
 
-let d, h = (cards, hand) |> drawCardToHand |> drawCardToHand
+let deckAfter, handAfter = (cards, hand) |> drawCardToHand |> drawCardToHand
