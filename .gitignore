@@ -431,4 +431,4 @@ $RECYCLE.BIN/
 # JetBrains Rider
 .idea/
 *.sln.iml
-fsharpTests/obj/Debug/net6.0/fsharpTests.fsproj.CoreCompileInputs.cache
+fsharpTests/obj/*
